@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #b01010; /* Putih */
+  font-weight: 300;
+  background: #ffcccc; /* Pink */
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin: 10% auto;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: 200;
+  color: #000000; /* Hitam */
+}
+
+input {
+  border: 1px solid rgba(255, 255, 255, 0.4); /* Putih dengan transparansi */
+  background-color: rgba(255, 255, 255, 0.2); /* Putih dengan transparansi */
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff; /* Putih */
+  font-weight: 300;
+}
+
+button {
+  appearance: none;
+  outline: 0;
+  background-color: #ffffff; /* Putih */
+  border: 0;
+  padding: 10px 15px;
+  color: #50a3a2; /* Hijau tosca */
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+}
